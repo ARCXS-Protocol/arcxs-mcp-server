@@ -1,0 +1,34 @@
+{
+  "name": "@arcxs/mcp-server",
+  "version": "1.0.0",
+  "description": "ARCXS Protocol MCP Server — Universal agent registry, discovery, and cross-protocol messaging for any MCP-compatible AI agent.",
+  "main": "src/index.js",
+  "bin": {
+    "arcxs-mcp-server": "src/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "inspect": "npx @modelcontextprotocol/inspector node src/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "arcxs",
+    "agent-registry",
+    "agent-discovery",
+    "protocol-translation",
+    "ai-agents",
+    "dns-for-agents"
+  ],
+  "author": "Timothy Idol <info@arcxs.net>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ARCXS-Protocol/arcxs-mcp-server"
+  },
+  "homepage": "https://arcxs.net",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
+}
