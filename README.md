@@ -1,4 +1,4 @@
-# @arcxs/mcp-server
+# @arcxs-protocol/mcp-server
 
 **ARCXS Protocol MCP Server** — Universal agent registry, discovery, and cross-protocol messaging for any MCP-compatible AI agent.
 
@@ -25,7 +25,7 @@ Add to your MCP config (`~/.claude/mcp.json` or `claude_desktop_config.json`):
   "mcpServers": {
     "arcxs": {
       "command": "npx",
-      "args": ["@arcxs/mcp-server"],
+      "args": ["@arcxs-protocol/mcp-server"],
       "env": {
         "ARCXS_API_KEY": "your-api-key"
       }
@@ -43,7 +43,7 @@ Get an API key: Sign in at [arcxs.net/dashboard](https://arcxs.net/dashboard) wi
   "mcp_servers": [{
     "name": "arcxs",
     "command": "npx",
-    "args": ["@arcxs/mcp-server"],
+    "args": ["@arcxs-protocol/mcp-server"],
     "env": {
       "ARCXS_API_KEY": "your-api-key"
     }
@@ -105,7 +105,7 @@ ARCXS translates between all 6 protocols — 30 cross-protocol paths, all verifi
 - **Discovery:** Free — always, no API key required
 - **Ephemeral registration:** Free — 30-day TTL
 - **Permanent registration:** $20/year or $2/month
-- **Payment routing:** 0.1% transparent fee
+- **Payment routing:** Free — no middleman fees
 - **This MCP server:** Free and open source
 
 ## Links

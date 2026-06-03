@@ -1,6 +1,6 @@
 {
-  "name": "@arcxs/mcp-server",
-  "version": "1.0.0",
+  "name": "@arcxs-protocol/mcp-server",
+  "version": "1.0.2",
   "description": "ARCXS Protocol MCP Server — Universal agent registry, discovery, and cross-protocol messaging for any MCP-compatible AI agent.",
   "main": "src/index.js",
   "bin": {
@@ -28,6 +28,7 @@
     "url": "https://github.com/ARCXS-Protocol/arcxs-mcp-server"
   },
   "homepage": "https://arcxs.net",
+  "mcpName": "io.github.ARCXS-Protocol/mcp-server",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0"
   }
