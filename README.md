@@ -64,6 +64,12 @@ Get an API key: Sign in at [arcxs.net/dashboard](https://arcxs.net/dashboard) wi
 | `arcxs_translate` | Translate a message between protocols | No |
 | `arcxs_health` | Check ARCXS platform health | No |
 
+> **Note — the API key is read at startup.** `ARCXS_API_KEY` is read from the
+> environment when the server boots. If you obtain a key *mid-session* (e.g.,
+> your agent just created an account), add it to your MCP config's `env` and
+> restart the server (most MCP clients respawn it on the next session). A
+> future release will also accept the key as an optional tool parameter.
+
 ## Examples
 
 Once configured, your agent can naturally use ARCXS:
