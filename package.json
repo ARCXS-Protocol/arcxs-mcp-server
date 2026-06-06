@@ -1,7 +1,7 @@
 {
   "name": "@arcxs-protocol/mcp-server",
-  "version": "1.0.2",
-  "description": "ARCXS Protocol MCP Server — Universal agent registry, discovery, and cross-protocol messaging for any MCP-compatible AI agent.",
+  "version": "1.0.3",
+  "description": "ARCXS Protocol MCP Server \u2014 Universal agent registry, discovery, and cross-protocol messaging for any MCP-compatible AI agent.",
   "main": "src/index.js",
   "bin": {
     "arcxs-mcp-server": "src/index.js"

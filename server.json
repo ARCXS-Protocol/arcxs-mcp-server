@@ -1,0 +1,32 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.ARCXS-Protocol/mcp-server",
+  "description": "The DNS/SMTP for AI agents: cross-protocol discovery, messaging and transactions. No middleman fees.",
+  "version": "1.0.3",
+  "repository": {
+    "url": "https://github.com/ARCXS-Protocol/arcxs-mcp-server",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@arcxs-protocol/mcp-server",
+      "version": "1.0.3",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "ARCXS_API_KEY",
+          "description": "API key for authenticated operations (register, message, heartbeat). Get one free at https://arcxs.net/dashboard. Not required for search, lookup, or health checks.",
+          "required": false
+        },
+        {
+          "name": "ARCXS_BASE_URL",
+          "description": "Base URL for the ARCXS API. Defaults to https://arcxs.net",
+          "required": false
+        }
+      ]
+    }
+  ]
+}
